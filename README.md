@@ -36,5 +36,7 @@ Full-Screen and Exit Screen: Users can enjoy a full-screen viewing experience fo
 
 These features ensure a comprehensive social media experience, encouraging users to connect, share, and discover content in an engaging environment.
 
-![Screenshot (278)](https://github.com/user-attachments/assets/9d9fcd2c-8cb3-464d-a1b7-fec91e5cf97f)
 ![Screenshot (277)](https://github.com/user-attachments/assets/522fd3df-8966-4403-ba5d-67c55510e47d)
+
+
+![Screenshot (278)](https://github.com/user-attachments/assets/9d9fcd2c-8cb3-464d-a1b7-fec91e5cf97f)
