@@ -1,0 +1,102 @@
+/* SearchUser.css */
+
+.search-user-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    width: 300px; /* Adjust width as needed */
+}
+
+.search-button {
+    padding: 10px 15px;
+    background-color: #e6677c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #20C997; /* Darker blue on hover */
+}
+
+.search-results {
+    text-align: center;
+}
+
+.loading-message {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+.results-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.result-item {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 5px 0;
+    transition: background-color 0.2s ease;
+}
+
+.result-item:hover {
+    background-color: #f1f1f1; /* Light gray on hover */
+}
+
+.no-results {
+    margin-top: 10px;
+    color:red;
+}
+
+
+.results-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute; /* Positioning for dropdown */
+    background-color: white; /* Dropdown background */
+    border: 1px solid #ccc; /* Border around dropdown */
+    z-index: 1; /* Ensure dropdown appears above other elements */
+    width: 300px; /* Match input width */
+}
+
+.result-item {
+    display: flex;
+    align-items: center; /* Center the avatar and text */
+    padding: 10px;
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.2s ease;
+}
+
+.result-item:hover {
+    background-color: #f1f1f1; /* Highlight on hover */
+}
+
+.user-avatar {
+    width: 30px; /* Adjust avatar size */
+    height: 30px;
+    border-radius: 50%; /* Make it circular */
+    margin-right: 10px; /* Space between avatar and username */
+}
