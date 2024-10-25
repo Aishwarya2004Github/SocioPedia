@@ -69,7 +69,7 @@ const EditProfile = () => {
     try {
       setLoading(true);
       const res = await axios.post(
-        'http://localhost:4000/api/v1/user/profile/edit',
+        'https://sociopedia-9rlt.onrender.com/api/v1/user/profile/edit',
         formData,
         {
           headers: {

@@ -28,7 +28,7 @@ const SuggestedUsers = () => {
 
     const handleFollow = async (userId) => {
         try {
-            const response = await axios.post(`http://localhost:4000/api/v1/user/followorunfollow/${userId}`);
+            const response = await axios.post(`https://sociopedia-9rlt.onrender.com/api/v1/user/followorunfollow/${userId}`);
             if (response.data.success) {
                 // Toggle the follow/unfollow state for this user
                 const updatedStatus = {

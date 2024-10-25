@@ -38,7 +38,7 @@ function App() {
 
   useEffect(() => {
     if (user) {
-      const socketio = io('http://localhost:4000', {
+      const socketio = io('https://sociopedia-9rlt.onrender.com', {
         query: { userId: user?._id },
         transports: ['websocket'],
       });

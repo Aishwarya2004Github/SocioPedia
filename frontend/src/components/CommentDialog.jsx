@@ -39,7 +39,7 @@ const onEmojiClick = (emojiObject) => {
 
   const sendMessageHandler = async () => {
     try {
-      const res = await axios.post(`http://localhost:4000/api/v1/post/${selectedPost?._id}/comment`, { text }, {
+      const res = await axios.post(`https://sociopedia-9rlt.onrender.com/api/v1/post/${selectedPost?._id}/comment`, { text }, {
         headers: {
           'Content-Type': 'application/json'
         },

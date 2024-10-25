@@ -30,7 +30,7 @@ const Profile = () => {
 
   const handleFollow = async () => {
     try {
-      const response = await axios.post(`http://localhost:4000/api/v1/user/followorunfollow/${userId}`);
+      const response = await axios.post(`https://sociopedia-9rlt.onrender.com/api/v1/user/followorunfollow/${userId}`);
       if (response.data.success) {
         const updatedStatus = !isFollowing;
         setIsFollowing(updatedStatus);
